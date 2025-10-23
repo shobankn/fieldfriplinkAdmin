@@ -238,9 +238,9 @@ const DriverDetails = () => {
       <div className="w-full min-h-screen bg-gray-50">
         {/* Header */}
         <div className="bg-[#FFFFFF] border-gray-200 mx-14 rounded-lg shadow-sm">
-          <div className="px-4 sm:px-6 lg:px-8 py-4">
+          <div className="px-4 mt-4 sm:px-6 lg:px-8 py-4">
             <div className="flex items-center justify-between flex-wrap gap-3">
-              <div className="flex items-center gap-3">
+              <div className=" flex items-center gap-3">
                 {/* <button
                   onClick={handleCancel}
                   className="p-2 text-gray-500 hover:text-gray-700 rounded-lg hover:bg-gray-100 transition-colors"
@@ -287,7 +287,7 @@ const DriverDetails = () => {
         </div>
 
         {/* Content */}
-        <div className="px-4 sm:px-6 lg:px-8 py-6 pb-24 md:pb-6 mx-6">
+        <div className="px-4 sm:px-6 lg:px-8 py-6 pb-24 md:pb-6 mx-0 sm:mx-6">
           {/* Personal Details Section */}
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4 sm:p-6 mb-6">
             <h2 className="text-[20px] archivo-semibold  text-[#333333] mb-6">Personal Details</h2>

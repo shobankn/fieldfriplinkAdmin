@@ -3,7 +3,7 @@ import { Menu } from 'lucide-react';
 
 const AdminTopBar = ({ onMenuClick }) => {
   return (
-    <div className="flex items-center justify-between bg-white border border-gray-200 py-9">
+    <div className="flex items-center justify-between bg-white border border-gray-200 py-4 sm:py-9">
       {/* Left Section */}
       <div className="flex items-center">
         <button
